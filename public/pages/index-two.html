@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="fone"></div>
+  <header class="page-header _main-container">
+    <section class="header _container">
+      <a href="#" class="header__logo logo">
+        <h1 class="logo__title">SongBird</h1>
+        <p class="logo__discription">Quiz-App</p>
+      </a>
+      <nav class="header__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#">Начальная страница</a></li>
+          <li class="navigation__item active-nav"><a href="#">Викторина</a></li>
+          <li class="navigation__item"><a href="#">Галерея птиц</a></li>
+        </ul>
+      </nav>
+      <div class="menu__icon">
+        <span class="menu__icon-span"></span>
+      </div>
+    </section>
+  </header>
+  <main class="page-main-two _main-container">
+    <section class="main-two _container quiz">
+     <ul class="quiz__category-list">
+      <li class="quiz__category-item active-quiz">Вопрос 1</li>
+      <li class="quiz__category-item">Вопрос 2</li>
+      <li class="quiz__category-item">Вопрос 3</li>
+      <li class="quiz__category-item">Вопрос 4</li>
+      <li class="quiz__category-item">Вопрос 5</li>
+      <li class="quiz__category-item">Вопрос 6</li>
+      <li class="quiz__category-item">Вопрос 7</li>
+      <li class="quiz__category-item">Вопрос 8</li>
+     </ul>
+     <p class="quiz__score-current">Количество баллов: <span class="quiz__score-current-span">11</span></p>
+     <div class="quiz__question question">
+      <div class="question__image">
+        <img alt="birds" class="question__image-img" src="./assets/question-img.jpg">
+      </div>
+      <div class="question__data">
+        <h3 class="question__name">Анонимное имя</h3>
+        <div class="subject__player tools">
+          <audio class="tools__music" src="https://www.xeno-canto.org/sounds/uploaded/XIQVMQVUPP/XC518684-Grands%20corbeaux%2009012020%20Suzon.mp3"></audio>
+          <div class="tools__sound sound">
+            <div class="sound__image"></div>
+            <div class="sound__progress progress">
+              <div class="sound__bar"></div>
+            </div>
+          </div>
+          <div class="tools__timer timer">
+            <div class= "timer__current current">0:00</div>
+            <div class="timer__progress progress">
+              <div class="progress__bar"></div>
+            </div>
+            <div class= "timer__current duration">3:22</div>
+          </div>
+          <button class="control__play control__switch"></button>
+        </div>
+      </div>
+     </div>
+     <div class="quiz__game game">
+      <div class="game__answer answer">
+        <ul class="answer__list">
+          <li class="answer__item active-true"><span class="answer__item-marker"></span>Ответ 1</li>
+          <li class="answer__item active-false"><span class="answer__item-marker"></span>Ответ 2</li>
+          <li class="answer__item"><span class="answer__item-marker"></span>Ответ 3</li>
+          <li class="answer__item"><span class="answer__item-marker"></span>Ответ 4</li>
+          <li class="answer__item"><span class="answer__item-marker"></span>Ответ 5</li>
+          <li class="answer__item"><span class="answer__item-marker"></span>Ответ 6</li>
+        </ul>
+      </div>
+      <div class="game__card card">
+        <div class="card__image">
+          <img alt="birds-card" class="card__image-img" src="./assets/sinica.jpg">
+        </div>
+        <div class="card__data">
+          <h3 class="card__name">Имя птички</h3>
+          <p class="card__species">Тут спец. описание</p>
+          <div class="subject__player tools">
+            <audio class="tools__music" src="https://www.xeno-canto.org/sounds/uploaded/XIQVMQVUPP/XC518684-Grands%20corbeaux%2009012020%20Suzon.mp3"></audio>
+            <div class="tools__sound sound">
+              <div class="sound__image"></div>
+              <div class="sound__progress progress">
+                <div class="sound__bar"></div>
+              </div>
+            </div>
+            <div class="tools__timer timer">
+              <div class= "timer__current current">0:00</div>
+              <div class="timer__progress progress">
+                <div class="progress__bar"></div>
+              </div>
+              <div class= "timer__current duration">3:22</div>
+            </div>
+            <button class="control__play control__switch"></button>
+          </div>
+        </div>
+        <p class="card__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+     </div>
+     <button class="_btn quiz__nextBtn">Следующий вопрос</button>
+    </section>
+  </main>
+  <footer class="page-footer _main-container">
+    <section class="footer _container">
+      <div class="footer__item github">
+        <a href="https://github.com/Jik789" class="footer__link footer__github"></a>
+        <p class="footer__author">2022 JiK©</p>
+      </div>
+      <div class="footer__item rsschool">
+        <a href="https://rs.school/index.html" class="footer__link footer__rsschool"></a>
+      </div>
+    </section>
+  </footer>
+  <script src="./bundle.js"></script>
+</body>
+</html>

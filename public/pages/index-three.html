@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="fone"></div>
+  <header class="page-header _main-container">
+    <section class="header _container">
+      <a href="#" class="header__logo logo">
+        <h1 class="logo__title">SongBird</h1>
+        <p class="logo__discription">Quiz-App</p>
+      </a>
+      <nav class="header__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#">Начальная страница</a></li>
+          <li class="navigation__item"><a href="#">Викторина</a></li>
+          <li class="navigation__item active-nav"><a href="#">Галерея птиц</a></li>
+        </ul>
+      </nav>
+      <div class="menu__icon">
+        <span class="menu__icon-span"></span>
+      </div>
+    </section>
+  </header>
+  <main class="page-main-three _main-container">
+    <section class="main-three _container gallery">
+      <div class="gallery__list">
+
+        <div class="gallery__item subject">
+          <div class="subject__image">
+            <img alt="birds-subject" class="subject__image-img" src="./assets/sinica.jpg">
+          </div>
+          <div class="subject__data">
+            <h3 class="subject__name">Имя птички</h3>
+            <p class="subject__species">Тут спец. описание</p>
+            <div class="subject__player tools">
+              <audio class="tools__music" src="https://www.xeno-canto.org/sounds/uploaded/XIQVMQVUPP/XC518684-Grands%20corbeaux%2009012020%20Suzon.mp3"></audio>
+              <div class="tools__sound sound">
+                <div class="sound__image"></div>
+                <div class="sound__progress progress">
+                  <div class="sound__bar"></div>
+                </div>
+              </div>
+              <div class="tools__timer timer">
+                <div class= "timer__current current">0:00</div>
+                <div class="timer__progress progress">
+                  <div class="progress__bar"></div>
+                </div>
+                <div class= "timer__current duration">3:22</div>
+              </div>
+              <button class="control__play control__switch"></button>
+            </div>
+            <p class="subject__discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer _main-container">
+    <section class="footer _container">
+      <div class="footer__item github">
+        <a href="https://github.com/Jik789" class="footer__link footer__github"></a>
+        <p class="footer__author">2022 JiK©</p>
+      </div>
+      <div class="footer__item rsschool">
+        <a href="https://rs.school/index.html" class="footer__link footer__rsschool"></a>
+      </div>
+    </section>
+  </footer>
+  <script src="./bundle.js"></script>
+</body>
+</html>

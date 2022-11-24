@@ -1,0 +1,11 @@
+@import "_variables"; // Переменные проекта
+@import "_zeroing"; // Обнуление стилей проекта
+@import "_technical"; // Технические и общие стили стилей проекта
+
+@import "_1header"; // Шапка проекта
+@import "_2footer.scss"; // Подвал проекта
+@import "_3main-one.scss"; // Основная секция 1
+@import "_4main-two.scss"; // Основная секция 2
+@import "_5main-three.scss"; // Основная секция 3
+@import "_6player.scss"; // Аудиоплеер
+@import "_7main-four.scss"; // основная секция 4
