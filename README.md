@@ -1,2 +1,2 @@
 # RS-School-musicQuiz
-JS (Stage 1)
+https://jik789.github.io/RS-School-musicQuiz/build/index.html
