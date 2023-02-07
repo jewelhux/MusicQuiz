@@ -1,1 +1,1 @@
-## Link: https://jik789.github.io/Music-Quiz/build/index.html
+## Link: https://jik789.github.io/MusicQuiz/build/index.html
